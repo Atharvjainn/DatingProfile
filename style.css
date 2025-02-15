@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Krona One", serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+
+.poppins{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.navimages{
+    width: 54px;
+    height: 54px;
+   
+}
+
+.langcontainer img{
+    width: 37px;
+    height: 37px;
+   
+}
+
+.langcontainer{
+    cursor: pointer;
+}
+
+.navcontainerr{
+   margin-top: 10px;
+    position: absolute;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+   
+}
+
+.left a{
+    color: #9C3232;
+    
+}
+
+
+
+.right{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+   
+}
+
+.rightitems{
+    display: flex;
+    gap: 10px;
+    align-items: center;  
+   
+}
+
+.rightitems a{
+    transition: all 0.2s linear;
+}
+
+a{
+    font-size: 24px ;
+    text-decoration: none;
+}
+
+.right a{
+    color: black;
+    
+}
+
+.main{
+    background-image: url(./cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAzL3JtNjA2ZGVzaWduLXJlbWl4LWJnLTEyLWEuanBn.webp);
+    height: 644px;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat; 
+    position: relative;
+}
+
+@media only screen and (max-width: 768px){
+    html,
+    body{
+    width:100%;
+    overflow-x:hidden;
+    }
+}
+
+.textcontainer {
+    color: rgb(239, 10, 10);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    gap: 20px;
+    
+
+}
+
+.textcontainer a{
+    color: white;
+    font-family: "Poppins", serif;
+    
+}
+
+.lol{
+    width: 71%;
+    font-family: "Poppins", serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.lol2 :hover{
+    transform: scale(1.4);
+    color: white;
+    background-color: black;
+
+    
+}
+
+.lol22{
+    width: 15rem;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.7s ease-in;
+    border: 2px solid white;
+    font-family: "Poppins", serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+   
+}
+
+  
+.textcontainer h2{
+    font-size: 3rem;
+}
+
+.profilecontainer{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-left: 8px;
+    padding-bottom: 20px;
+    
+   
+
+} 
+
+.profilecontainer h1{
+    text-align: center;
+}
+
+.photoname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.photoname img{
+    width: 15rem;
+   border-radius: 50px;
+   box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.unorder{
+    margin-left: 20px;
+}
+
+.firstpara{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.impression{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttonpara{
+    width: 15rem;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.7s ease-in;
+    border: 2px solid white;
+    font-family: "Poppins", serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.buttonpara1 :hover{
+    transform: scale(1.3);
+    color: white;
+    background-color: black;
+}
+
+
+
+
+.nextarrow img{
+    height: 30px;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+
+.nextarrow{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+
+
+
+.rightitems :hover{
+    color: red;
+    
+    
+}
+
+@keyframes slideright {
+    0%{
+       opacity: 0;
+       transform: translateX(-100%);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+
+@keyframes slideleft {
+    0%{
+        opacity: 0;
+        transform: translateX(+100%);
+     }
+ 
+     100%{
+         opacity: 1;
+         transform: translateX(0%);
+     }
+}
+
+.textcontainer h2{
+    animation: 0.9s linear 0s slideright;
+}
+
+.lol{
+    animation: 0.9s linear 0s slideleft;
+}
+
+.summary{
+    cursor: pointer;
+}
+
+.nextarrow1 :hover{
+    transform: scale(2);
+    
+}
+
+.nextarrow1{
+    display: flex;
+    justify-content: space-between;
+}
+
